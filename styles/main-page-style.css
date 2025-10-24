@@ -1,3 +1,4 @@
+/*
 .cover {
   color: white;
   background-image: url(../images/cover.jpg);
@@ -39,7 +40,7 @@
 .description {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px; /*не то значение*/
+  margin-top: 100px;
   margin-right: 50px;
   margin-left: 50px;
   height: 51px;
@@ -68,3 +69,4 @@
   width: 256px;
   height: 51px;
 }
+*/
