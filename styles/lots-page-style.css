@@ -1,0 +1,89 @@
+.lots-page {
+  margin-top: 180px;
+  margin-left: 24px;
+  height: auto;
+}
+
+.lots-page h2 {
+  margin-left: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  position: relative;
+  color: white;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+
+.first-card,
+.second-card,
+.third-card {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 40px;
+  width: 334px;
+  min-height: 596px;
+}
+
+.first-card {
+  position: relative;
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.second-card {
+  position: relative;
+  background-image: url(../images/card-lot-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.third-card {
+  position: relative;
+  background-image: url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-article {
+  position: relative;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+.watch-more {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: lowercase;
+  width: 192px;
+  height: 23px;
+  margin-left: 40px;
+}
