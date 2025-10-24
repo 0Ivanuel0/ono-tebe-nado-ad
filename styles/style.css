@@ -83,7 +83,7 @@
 .description {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px; /*не то значение*/
+  margin-top: 100px;
   margin-right: 50px;
   margin-left: 50px;
   height: 51px;
@@ -132,9 +132,8 @@
 }
 
 .card-title {
-  position: relative;
-  color: white;
   font-family: "Raleway", "Arial", sans-serif;
+  color: white;
   font-weight: 700;
   font-style: Bold;
   font-size: 22px;
@@ -144,6 +143,7 @@
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
+  position: relative;
 }
 
 .first-card,
@@ -181,13 +181,13 @@
 }
 
 .card-article {
-  position: relative;
   font-family: "Raleway", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0%;
+  position: relative;
 }
 
 .watch-more {
